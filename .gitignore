@@ -1,21 +1,18 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
-# Jupyter Notebook
+# Jupyter
 .ipynb_checkpoints/
 
 # Virtual environments
 venv/
-env/
 .venv/
+env/
 
 # Environment variables
 .env
-
-# macOS
-.DS_Store
 
 # VS Code
 .vscode/
@@ -23,10 +20,20 @@ env/
 # PyCharm
 .idea/
 
-# Python build files
+# Build files
 build/
 dist/
 *.egg-info/
 
+# Cache
+.pytest_cache/
+.cache/
+
 # Logs
 *.log
+
+# macOS
+.DS_Store
+
+# Google Colab temporary files
+/content/
