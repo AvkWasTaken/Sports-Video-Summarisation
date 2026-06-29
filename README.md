@@ -96,4 +96,5 @@ depending on the functionality.
 ## Author
 
 Aditya
+<br>
 Aryan VK
